@@ -6,19 +6,19 @@ import calendar
 import json
 import pprint
 
-#Config can be as well load from json file
+#Config can be as well loaded from json file via load_config function
 
 config =  {
   "params": {
-    'time'                                  :      'Date',
-    'max_temp'                              :     'max_temp',
-    'min_temp'                              :'min_temp',
-    'temp'                                  :  'Temperature (℃)',
+    'time'                                  : 'Date',
+    'max_temp'                              : 'max_temp',
+    'min_temp'                              : 'min_temp',
+    'temp'                                  : 'Temperature (℃)',
     'max_dew_temp'                          : 'max_dew_temp',
-    'min_dew_temp'                          :'min_dew_temp',
-    'dew_temp'                              :'Dew point temperature (℃)',
+    'min_dew_temp'                          : 'min_dew_temp',
+    'dew_temp'                              : 'Dew point temperature (℃)',
     'max_wind_speed'                        : 'max_wind_speed',
-    'wind_speed'                            :'Wind speed (m/s)',
+    'wind_speed'                            : 'Wind speed (m/s)',
     "global_horiz_radiation"                : "OBS_GHI",
     "direct_normal_radiation"               : "dni_dirindex",
     
@@ -110,9 +110,9 @@ def countlist(random_list):
 def bestyear(df, years):
     """
     df is original dataframe
-    years is list of years for the best"""
+    years is a list of years for the best"""
    
-    var = ["global_horiz_radiation", "temp"] #add temp later
+    var = ["global_horiz_radiation", "temp"] #variables list
 
     bestyears = dict.fromkeys(years)
     
