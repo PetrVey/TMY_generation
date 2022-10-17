@@ -36,7 +36,7 @@ config =  {
     'min_dew_temp'            : 1,
     'dew_temp'                : 2,
     'max_wind_speed'          : 1,
-    'wind_speed'              : 2,
+    'wind_speed'              : 1,
     "global_horiz_radiation"  : 5,
     "direct_normal_radiation" : 5,
   },
