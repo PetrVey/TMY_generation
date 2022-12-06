@@ -29,7 +29,6 @@ config =  {
    #Importance weight for FS-statistic method 
   "weights": {
     "total": 20,
-<<<<<<< HEAD
     "max_temp"                : 1,
     "min_temp"                : 1,
     "temp"                    : 2,
@@ -38,16 +37,6 @@ config =  {
     "dew_temp"                : 2,
     "max_wind_speed"          : 1,
     "wind_speed"              : 1,
-=======
-    'max_temp'                : 1,
-    'min_temp'                : 1,
-    'temp'                    : 2,
-    'max_dew_temp'            : 1,
-    'min_dew_temp'            : 1,
-    'dew_temp'                : 2,
-    'max_wind_speed'          : 1,
-    'wind_speed'              : 1,
->>>>>>> a4bb4f41cb8900d0b14bc103d40822003f6c6334
     "global_horiz_radiation"  : 5,
     "direct_normal_radiation" : 5,
   },
